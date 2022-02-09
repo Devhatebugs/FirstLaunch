@@ -1,0 +1,207 @@
+body {
+    font-style: Roboto;
+}
+
+/* CSS for Header */
+
+img.header {
+    width: 100%;
+    height: 350px;
+    filter: contrast(1.1);
+}
+
+.container-fluid {
+  top: -200px;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.top-left {
+  position: absolute;
+  top: -115px;
+  left: 40px;
+}
+
+.top-right {
+  position: absolute;
+  top: -115px;
+  right: 40px;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered p {
+    color: #F5F5F5;
+}
+#btnLogin {
+    font-size: 12px;
+    padding: 15px;
+    font-weight: 500;
+}
+#btnSignup {   
+    font-size: 12px;
+    font-weight: 500;
+    padding: 15px;
+    width: 50%;
+}
+
+/* CSS for Top-Section */
+
+#topContainer{
+    margin-top: 80px;
+}
+section#top {
+    padding: 20px;
+    background-color: #F5F5F5;
+    height: 500px;
+    margin-bottom: 200px;
+}
+p.topSection {
+    font-size: 14px;
+    font-weight: 600;
+    color: #7D7D7D;
+}
+h2.topSection {
+    font-size: 38px;
+    font-weight: 400;
+    padding-right: 30px;
+}
+p.topSectionp{
+    color: #8C8C8C;
+}
+.card-container {
+    margin-top: 100px;
+}
+.containertop{
+    padding: 55px;
+}
+.containertop img {
+    margin-top: -25px;
+}
+.containertop h3 {
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.containertop p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #8C8C8C;
+    text-align: left;
+}
+
+
+/* CSS for Mid-Section */
+
+#mid{
+    background: url("images/back2.jpg");
+    padding: 90px 20px 70px 0px;
+}
+
+#midContainer{
+    padding-bottom: 30px;
+}
+
+#midSectionp1 , #midSectionh2, #midSectionp2 {
+    color: white;
+}
+#midSectionp1{
+    font-size: 12px;
+    font-weight: 400;
+}
+#midSectionp2{
+    padding-left: 100px;
+    font-size: 16px;
+}
+#midSectionh2{
+    
+    font-weight: 400;
+}
+
+/* CSS for Bottom-Section */
+
+#bottom {
+    background-color: #F5F5F5;
+    padding: 20px 0px 100px 0px;
+
+}
+.bottomcard {
+    margin-top: 85px;
+}
+
+.bottomh3 {
+    font-size: 18px;
+    padding: 18px;
+    font-weight: 600;
+}
+
+.bottomp {
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 20px;
+}
+
+/* CSS for Footer */
+
+footer {
+        margin: 75px 50px 75px 65px;
+}
+#footerContainer{
+    padding-left: 70px;
+}
+.foooterContent {
+    font-size: 15px;
+    padding-top: 25px;
+    color: #8C8C8C;
+}
+.foooterTitle {
+    font-size: 16px;
+    font-weight: 600;
+    color: #8C8C8C;
+    list-style-type: none;
+}
+.listItem {
+    padding-top: 10px;
+} 
+.foooterSites {
+    list-style-type: none;
+    display: inline-block;
+}
+
+/*CSS for End-Section*/
+#endSection {
+    background-color: #EBEBEB;
+    padding: 40px;
+}
+.containerofendSection {
+    padding-left: 70px;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+}
+.endSectionp1{
+    color: #8C8C8C;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 15px;
+}
+.endSectionp2 {
+    color: #8C8C8C;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 15px;
+    padding-right: 20px;
+    text-align: right;
+}
+
+.link{
+    color: black;
+}
+.link:hover{
+    text-decoration: none;
+    color: #2979FF;
+}
